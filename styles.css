@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    height: 100%;
+    font-size: 20px;
+}
+a:hover{
+    background-color: rgb(128, 114, 252);
+    color: black;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url(./assets/img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400%;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+
+}
+a[href="#"]{
+    
+        background-color: chartreuse;
+        color: black;
+    
+    
+}
+main{
+    min-height: 51.1vh;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.verde{
+    color: chartreuse;
+    font-size: 60px;
+}
+article img{
+    width: 100%;
+    border-radius: 39px 0px 0;
+
+}
+div{
+   display: flex;
+   justify-content: space-around;
+}
+article{
+    width: 20%;
+    border: 1px solid black;
+    list-style: inside;
+    border-radius: 41px 0px 40px 0px;
+    background-color: white;
+    -webkit-box-shadow: 14px 14px 27px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 14px 27px 5px rgba(0,0,0,0.75);
+box-shadow: 14px 14px 27px 5px rgba(0,0,0,0.75);
+}
+h2{
+    text-align: center;
+}
+ul{
+    font-size: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+.background-text {
+    text-align: center;
+    position: absolute;
+    top: 61%;
+    font-size: 30vh;
+    font-weight: bold;
+    color: #9ACD32; /* Color verde claro con transparencia */
+    z-index: -1; /* Asegura que el texto esté detrás del contenido */
+    white-space: nowrap;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #9ACD32;
+    height: 115px;
+    align-items: center;
+    font-size: 25px;
+}
